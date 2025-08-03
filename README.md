@@ -71,21 +71,25 @@ portfolio/
 - **Tech Stack**: React, TypeScript, Vite, Tailwind CSS, WebAuthn, Stripe API
 - **Features**: Secure payment simulation with biometric authentication
 - **Highlights**: 100% passwordless login flow using YubiKey
+- **Repository**: [github.com/iprajwalsingh7/fido-pay-demo](https://github.com/iprajwalsingh7/fido-pay-demo)
 
 ### 🌤️ WeatherSense: Real-Time Weather App
 - **Tech Stack**: HTML5, CSS3, JavaScript, OpenWeatherMap API, Geolocation API
 - **Features**: Real-time weather forecasts with dark mode toggle
 - **Highlights**: 100% responsive design with icon-based UX
+- **Repository**: [github.com/iprajwalsingh7/WeatherSense](https://github.com/iprajwalsingh7/WeatherSense)
 
 ### ✅ Modern Todo App
 - **Tech Stack**: React, Tailwind CSS, Vite, LocalStorage
 - **Features**: Dynamic todo management with state persistence
 - **Highlights**: 35% faster load time with Vite bundler
+- **Repository**: [github.com/iprajwalsingh7/Modern-Todo-List](https://github.com/iprajwalsingh7/Modern-Todo-List)
 
 ### 🔧 Practice Project
 - **Tech Stack**: React, JavaScript, HTML, CSS
 - **Features**: Exploration of React concepts and component architecture
 - **Highlights**: Improved debugging and problem-solving skills
+- **Repository**: [github.com/iprajwalsingh7?tab=repositories](https://github.com/iprajwalsingh7?tab=repositories)
 
 ## 🎓 Education & Experience
 
@@ -97,7 +101,7 @@ portfolio/
 
 - **Email**: prajwalsingh0605@gmail.com
 - **Phone**: +91 7398314111
-- **LinkedIn**: [linkedin.com/in/prajwalsingh](https://linkedin.com/in/prajwalsingh)
+- **LinkedIn**: [linkedin.com/in/iprajwalsingh7](https://www.linkedin.com/in/iprajwalsingh7/)
 - **GitHub**: [github.com/iprajwalsingh7](https://github.com/iprajwalsingh7)
 - **Location**: Bengaluru, Karnataka, India
 
@@ -206,7 +210,7 @@ While this is a personal portfolio, suggestions and feedback are welcome! Feel f
 
 If you have any questions or suggestions, feel free to reach out:
 - Email: prajwalsingh0605@gmail.com
-- LinkedIn: [Prajwal Singh](https://linkedin.com/in/prajwalsingh)
+- LinkedIn: [Prajwal Singh](https://www.linkedin.com/in/iprajwalsingh7/)
 
 ## 🙏 Acknowledgments
 
