@@ -6,7 +6,7 @@ A modern, interactive portfolio website showcasing my skills, projects, and expe
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [Your Portfolio URL Here]
+Visit the live portfolio: [https://iprajwalsingh7.github.io/portfolio-website/](https://iprajwalsingh7.github.io/portfolio-website/)
 
 ## ✨ Features
 
@@ -94,7 +94,7 @@ portfolio/
 - **Email**: prajwalsingh0605@gmail.com
 - **Phone**: +91 7398314111
 - **LinkedIn**: [linkedin.com/in/prajwalsingh](https://linkedin.com/in/prajwalsingh)
-- **GitHub**: [github.com/prajwalsingh](https://github.com/prajwalsingh)
+- **GitHub**: [github.com/iprajwalsingh7](https://github.com/iprajwalsingh7)
 - **Location**: Bengaluru, Karnataka, India
 
 ## 🚀 Getting Started
@@ -107,8 +107,8 @@ portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/iprajwalsingh7/portfolio-website.git
+   cd portfolio-website
    ```
 
 2. **Run locally**
