@@ -1,12 +1,16 @@
 # 🌟 Prajwal Singh - Portfolio Website
 
+> **🌐 Live at: [iprajwalsingh7.dev](https://iprajwalsingh7.dev)**
+
 A modern, interactive portfolio website showcasing my skills, projects, and experience as a Full Stack Developer and Software Engineer.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [https://iprajwalsingh7.github.io/portfolio-website/](https://iprajwalsingh7.github.io/portfolio-website/)
+🌐 **Visit the live portfolio**: [**iprajwalsingh7.dev**](https://iprajwalsingh7.dev)
+
+*Also available at*: [iprajwalsingh7.github.io/portfolio-website](https://iprajwalsingh7.github.io/portfolio-website/)
 
 ## ✨ Features
 
