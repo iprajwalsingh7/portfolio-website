@@ -223,4 +223,4 @@ If you have any questions or suggestions, feel free to reach out:
 
 **Built with ❤️ by Prajwal Singh**
 
-*Last updated: January 2024*
+*Last updated: August 2025*
