@@ -94,32 +94,32 @@ window.addEventListener('load', () => {
 
 // Skill items hover effect
 document.querySelectorAll('.skill-item').forEach(item => {
-    item.addEventListener('mouseenter', function() {
+    item.addEventListener('mouseenter', function () {
         this.style.transform = 'translateY(-10px) scale(1.05)';
     });
-    
-    item.addEventListener('mouseleave', function() {
+
+    item.addEventListener('mouseleave', function () {
         this.style.transform = 'translateY(0) scale(1)';
     });
 });
 
 // Project cards tilt effect
 document.querySelectorAll('.project-card').forEach(card => {
-    card.addEventListener('mousemove', function(e) {
+    card.addEventListener('mousemove', function (e) {
         const rect = this.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
-        
+
         const centerX = rect.width / 2;
         const centerY = rect.height / 2;
-        
+
         const rotateX = (y - centerY) / 10;
         const rotateY = (centerX - x) / 10;
-        
+
         this.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(10px)`;
     });
-    
-    card.addEventListener('mouseleave', function() {
+
+    card.addEventListener('mouseleave', function () {
         this.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateZ(0)';
     });
 });
@@ -127,11 +127,11 @@ document.querySelectorAll('.project-card').forEach(card => {
 // Floating elements animation
 function animateFloatingElements() {
     const floatingElements = document.querySelectorAll('.floating-element');
-    
+
     floatingElements.forEach((element, index) => {
         const delay = index * 1500;
         const duration = 6000 + (index * 500);
-        
+
         setInterval(() => {
             element.style.transform = `translateY(-20px) rotate(${Math.random() * 10 - 5}deg)`;
             setTimeout(() => {
@@ -147,38 +147,38 @@ window.addEventListener('load', animateFloatingElements);
 // Contact form handling
 const contactForm = document.querySelector('.form');
 if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
+    contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
-        
+
         // Get form data
         const formData = new FormData(this);
         const name = this.querySelector('input[placeholder="Your Name"]').value;
         const email = this.querySelector('input[placeholder="Your Email"]').value;
         const subject = this.querySelector('input[placeholder="Subject"]').value;
         const message = this.querySelector('textarea').value;
-        
+
         // Simple validation
         if (!name || !email || !subject || !message) {
             alert('Please fill in all fields');
             return;
         }
-        
+
         // Email validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
             alert('Please enter a valid email address');
             return;
         }
-        
+
         // Create mailto link
         const mailtoLink = `mailto:prajwalsingh0605@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-        
+
         // Open email client
         window.location.href = mailtoLink;
-        
+
         // Show success message
         alert('Thank you for your message! Your email client should open now.');
-        
+
         // Reset form
         this.reset();
     });
@@ -189,7 +189,7 @@ window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const hero = document.querySelector('.hero');
     const heroContent = document.querySelector('.hero-content');
-    
+
     if (hero && heroContent) {
         heroContent.style.transform = `translateY(${scrolled * 0.5}px)`;
     }
@@ -198,7 +198,7 @@ window.addEventListener('scroll', () => {
 // Add loading animation
 window.addEventListener('load', () => {
     document.body.classList.add('loaded');
-    
+
     // Animate elements on load
     setTimeout(() => {
         const elementsToAnimate = document.querySelectorAll('.hero-title, .hero-subtitle, .hero-description, .hero-buttons, .social-links');
@@ -233,7 +233,7 @@ revealElements.forEach(el => {
 function createParticles() {
     const hero = document.querySelector('.hero');
     const particleCount = 50;
-    
+
     for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
@@ -302,40 +302,6 @@ window.addEventListener('scroll', () => {
     const docHeight = document.body.scrollHeight - window.innerHeight;
     const scrollPercent = (scrollTop / docHeight) * 100;
     scrollProgress.style.width = scrollPercent + '%';
-});
-
-// Add custom cursor effect
-const cursor = document.createElement('div');
-cursor.className = 'custom-cursor';
-cursor.style.cssText = `
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #667eea;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9999;
-    transition: all 0.1s ease;
-    mix-blend-mode: difference;
-`;
-document.body.appendChild(cursor);
-
-document.addEventListener('mousemove', (e) => {
-    cursor.style.left = e.clientX - 10 + 'px';
-    cursor.style.top = e.clientY - 10 + 'px';
-});
-
-// Cursor hover effects
-document.querySelectorAll('a, button, .skill-item, .project-card').forEach(el => {
-    el.addEventListener('mouseenter', () => {
-        cursor.style.transform = 'scale(1.5)';
-        cursor.style.backgroundColor = 'rgba(102, 126, 234, 0.2)';
-    });
-    
-    el.addEventListener('mouseleave', () => {
-        cursor.style.transform = 'scale(1)';
-        cursor.style.backgroundColor = 'transparent';
-    });
 });
 
 console.log('🚀 Portfolio loaded successfully!');
